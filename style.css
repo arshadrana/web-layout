@@ -1,0 +1,280 @@
+
+/* Global Css  */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+ .container{
+  width: 98%;
+  margin: auto;
+}
+.row{
+  width: 100%;
+  float: left;
+}
+
+
+/* header part */
+header{
+background-color: #996699;
+}
+nav{
+padding: 10px 0px;
+}
+.logo-part{
+  padding: 20px 0px 0px 15px;
+}
+ .menu-part ul{
+  text-align: end;
+  padding: 10px 0px;  
+ }
+ .menu-part li{
+  color: white;
+  list-style: none;  
+  display: inline-block;
+  margin: 4px;
+ }
+.menu-part a{
+  font-size: 17px;
+ font-weight: 400;
+ color: white;
+ background-color:#a3a0a0;
+ padding: 5px px;
+ border-radius: 3px;
+}
+.hero-part{
+  padding: 150px 100px;
+}
+.hero-part h1{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  line-height: 25px;
+  padding: 20px;
+}
+.btn{
+  width: 300px;
+ background-color: #FF6633;
+ font-size: 17px;
+ color: white;
+ text-transform: uppercase;
+ padding: 20px 0px;
+ display: block;
+ margin: auto;
+}
+.menu-part li:hover{
+  background-color: #dfd9d5;
+ color: white;
+ padding: 5px 12px;
+ border-radius: 10px;
+}
+/* Indivisal button */
+.hero-part button:hover{
+  background-color: #FFCC99;
+}
+.heading{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.sub-heading{
+   text-transform: uppercase;
+   margin: 20px auto;
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 20px;
+   padding: 20px 0px 0px 0px;
+}
+.underline{
+  border-top: 5px solid;
+ width: 11px;
+ margin: 10px auto;
+}
+
+p{
+  font-size: 20px;
+  padding: 10px 0px 0px 10px;
+}
+/* service sacsion */
+#service{
+background-color:#00CC99;
+color: #FFFFFF;
+text-align: center;
+width: 100%;
+float: left;
+ padding: 20px;
+}
+#service .box img{
+  height: 130px;
+}
+#team{
+  background-color:#99CCCC ;
+  text-align: center;
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+  margin: auto;
+}
+.icon{
+
+  color: #33CCFF;
+  line-height: 17px;
+
+}
+#skil{
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0px;
+
+}
+.load{
+  background-color: #00CC99;
+  height: 50px;
+  width: 50%;
+  font-size: 20px;
+}
+.load:hover{
+  background-color: #00cc1b;
+  height: 50px;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 2px;
+}
+/* Our section */
+#our{
+  background-color: #FFCC99;
+  text-align: center;
+  padding: 20px 0px;
+
+  }
+ #btn{
+  
+    height: 250px;
+    padding: 100px 0px ;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+  }
+  .our:hover{
+    background-color: #f025f0;
+    height: 40px;
+    width: 50px;
+  }
+  /* what section */
+  #what{
+    background-color: #CC3399;
+    text-align: center;
+    padding: 20px 0px;
+    color: #FFFFFF;
+    }
+   .position{
+  color: #FFCC99;
+  font-size: 17px;
+  padding: 20px 0px 0px 0px;
+  height: 10px;
+  margin: 20px auto;
+
+ }
+#get{
+  background-color: #336699;
+   padding: 20px;
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  #message{
+    background-color: #ccccdb;
+    width: 100%;
+    float: left;
+    margin: auto;
+    padding: 10px 0px 0px ;
+    height: 100px;
+    
+  }
+  input{
+    height: 48px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: #333366;
+    color: white;
+
+  }
+   #send{
+    width: 400px;
+    padding: 20px 0px;
+    background-color: #d6bad6;
+   }   
+/* #send:hover{
+  
+ background-color: #33CCFF;
+ padding: 10px 10px 10px 20px;
+ font-size: 17px;
+ text-align: center;
+ display: block;
+ margin: auto;
+} */
+.out{
+  font-size: 17px;
+  padding: 10px 40px 20px;
+  background-color: #336699;
+  color: white;
+}
+.C{
+  font-size: 17px;
+  padding: 10px 40px 20px;
+  color: #33CCFF;
+  border-radius: 5px;
+  background-color: #336699;
+
+}
+
+
+/* Layout  */
+
+
+  [class*="col-"] {
+    float: left;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+ 
